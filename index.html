@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nia Profile</title>
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+  <!-- bootstrap套件 + 自訂css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- 網站識別icon -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+  <!-- AOS animate -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+  <!-- 導覽列 -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Nia Profile</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#niaNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="niaNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#niaAbout"><i class="far fa-id-badge me-1"></i>About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#niaAbility"><i class="fas fa-star me-1"></i>Ability</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#niaPf"><i class="fab fa-readme me-1"></i>Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#niaContact"><i class="fas fa-envelope-open-text me-1"></i>Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html"><i class="fas fa-key me-1"></i>Login</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Top區 -->
+  <section id="niaTop" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/top.jpg" class="d-block w-100 h-100">
+        <div class="carousel-caption d-flex flex-column justify-content-center position-absolute top-0 bottom-0">
+          <h5>當大多數人原地踏步的時候，總有一些人在不停歇的往前跑</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me -->
+
+  <section id="niaAbout" class="container py-5 custom-container-width">
+    <header class="text-center">
+      <h2 class="text-light mb-4">About Me</h2>
+    </header>
+    <article class="py-5">
+      <ul class="row gy-5 list-unstyled">
+        <li class="col-12" data-aos="fade-right">
+          <div class="row gy-5 align-items-center">
+            <img src="img/me6.jpg" class="col-md-6" id="me"> <!-- style="width: 20rem;"-->         
+            <div class="col-md-6">
+              <h3>關於我...</h3>
+              <h5>積極進取 / 熱心助人</h5><br>
+              <p>從小開始，對於新事物一直充滿好奇與學習力，興趣廣泛，尤其美學、繪畫與藝術鑑賞更是成為生活中的一部分。
+                因為有強大的接受力，從事過各式產業的工作，擁有包容的態度及靈活的視角，
+                整合不同產業職務經歷，及認真負責的習性，長期在各領域中皆受主管肯定，賦予重要任務。</p>
+              <p>雖非藝術或資訊科技背景畢業，內心一直嚮往從事相關領域的工作內容，
+                加上這一兩年全球疫情造成的產業衝擊，因此學習前後端的網頁製作技術，
+                透過保持高度關注、嘗試不同可能性、樂於跨領域學習，精進自己的全方位能力！</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="col-12" data-aos="fade-left">
+          <div class="row gy-5 align-items-center">
+            <img src="img/study7.jpg" class="col-md-6">
+            <div class="col-md-6">
+              <h3>學歷</h3>
+              <ul style="font-size: 20px;">
+                <li>後端網頁開發技術（泰山）全日制職業訓練</li>
+                <li>私立實踐大學企業管理學系</li>
+                <li>高雄市立小港高中</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="col-12" data-aos="fade-right">
+          <div class="row gy-5 align-items-center">
+            <img src="img/work7.jpg" class="col-md-6">
+            <div class="col-md-6">
+              <h3>經歷</h3>
+              <ul style="font-size: 20px;">
+                <li>生技業：台灣利得生物科技股份有限公司 / 管理部副課長</li>
+                <li>醫療業：廖張行科技有限公司 / 業務助理</li>
+                <li>餐飲業：黑浮咖啡 / 代理店長</li>
+                <li>文藝業：創意美術 / 油畫教師</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <header>
+          <h2 class="text-light text-center mb-4" id="niaAbility">Ability</h2>
+        </header>
+        <li class="col-12" data-aos="fade-left">
+          <div class="row gy-5 align-items-center">
+            <img src="img/skill3.jpg" class="col-md-6">
+            <div class="col-md-6">
+              <h3>技能</h3>
+              <ul style="font-size: 20px;">
+                <li>軟性技能：溝通協調 / 彈性多元 / 組織整合 / 簡報</li>
+                <li>設計技能：Illustrator / Photoshop</li>
+                <li>前端技能：HTML / CSS / Bootstrap / JavaScript / jQuery / AJAX</li>
+                <li>後端技能：PHP / MySQL</li>
+                <li>語言技能：台語流利 / 英文中等</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="col-12" data-aos="fade-right">
+          <div class="row gy-5 align-items-center">
+            <img src="img/earth.jpg" class="col-md-6">
+            <div class="col-md-6">
+              <h3>閒暇時...</h3>
+              <ul style="font-size: 20px;">
+                <li>公益活動：為愛而走遊行募款 / 淨灘</li>
+                <li>藝術創作：美甲 / 油畫 / 勾針毛線</li>
+                <li>親友聚會：包棟民宿活動規劃 / 聚餐場地租賃佈置</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </article>
+  </section>
+
+
+
+  <!-- Portfolio作品集 -->
+  <section id="niaPf" class="container">
+    <header>
+      <h2 class="text-light text-center mb-4">Portfolio</h2>
+      <nav class="nav nav-tabs justify-content-center">
+        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#ai">Illustrator</button>
+        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#ps">Photoshop</button>
+        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#fe">CSS / JS</button>
+        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#be">PHP</button>
+      </nav>
+    </header>
+
+    <article class="tab-content py-3">
+      <div class="row tab-pane fade show active" id="ai">
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card">
+            <img src="img/002.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">AI 作品-人物繪製</h5>
+              <!-- <a href="#" class="btn btn-light">Click</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card">
+            <img src="img/ai.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">AI 作品-漸層動物</h5>
+              <!-- <a href="#" class="btn btn-light">Click</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card">
+            <img src="img/ai3.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">AI 作品-LOGO設計</h5>
+              <!-- <a href="#" class="btn btn-light">Click</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row tab-pane fade" id="ps">
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card">
+            <img src="img/ps2.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">PS 作品-文宣海報</h5>
+              <!-- <a href="#" class="btn btn-light">Click</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card">
+            <img src="img/ps1.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">PS 作品-年曆海報</h5>
+              <!-- <a href="#" class="btn btn-light">Click</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card">
+            <img src="img/ps4.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">PS 作品-產品海報</h5>
+              <!-- <a href="#" class="btn btn-light">Click</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row tab-pane fade" id="fe">
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card">
+            <img src="img/work10.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Front end 作品-轉場動畫</h5>
+              <a href="#" class="btn btn-light">Click</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card">
+            <img src="img/work10.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Front end 作品-數位時鐘</h5>
+              <a href="#" class="btn btn-light">Click</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card">
+            <img src="img/work10.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Front end 作品-類比時鐘</h5>
+              <a href="#" class="btn btn-light">Click</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card">
+            <img src="img/work10.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Front end 作品-闖關遊戲</h5>
+              <a href="#" class="btn btn-light">Click</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card">
+            <img src="img/work10.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Front end 作品-打地鼠</h5>
+              <a href="#" class="btn btn-light">Click</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row tab-pane fade" id="be">
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="card">
+            <img src="img/be1.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">PHP 作品-萬年曆</h5>
+              <a href="http://220.128.133.15/mackliu/11001/04/" target="_blank" class="btn btn-light">Click</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+
+
+
+
+  <!-- Contact聯絡我 -->
+  <section id="niaContact" class="py-5 bg-light text-secondary">
+    <div class="container">
+      <header class="h2 text-center text-light">Contact</header>
+      <form class="row py-5 gy-2">
+        <div class="col-12 col-md-6">
+          <label for="dataUser" class="form-label">訪客姓名</label>
+          <input type="text" class="form-control" id="dataUser" name="dataUser" placeholder="Full Name" required>
+        </div>
+        <div class="col-12 col-md-6">
+          <label for="dataTel" class="form-label">聯絡電話</label>
+          <input type="tel" class="form-control" id="dataTel" name="dataTel" placeholder="Phone Number" required>
+        </div>
+        <div class="col-12 col-md-6">
+          <label for="dataMail" class="form-label">電子信箱</label>
+          <input type="email" class="form-control" id="dataMail" name="dataMail" placeholder="Email Address" required>
+        </div>
+        <div class="col-12 col-md-6">
+          <label for="dataSub" class="form-label">主旨</label>
+          <input type="text" class="form-control" id="dataSub" name="dataSub" placeholder="Subject" required>
+        </div>
+        <div class="col-12">
+          <label for="dataMsg" class="form-label">訊息內容</label>
+          <textarea class="form-control" id="dataMsg" name="dataMsg" rows="3" placeholder="Message" required></textarea>
+        </div>
+        <div class="col-12 text-center">
+          <input type="submit" value="確認送出" class="btn btn-secondary">
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+
+  <!-- 頁尾區 -->
+  <footer class="text-center py-3">
+    <small>
+      DESIGN：林純儀 Nia Lin  
+    </small>
+    <div id="niaArrow" class="position-fixed">
+      <a href="#" class="btn btn-light rounded-circle border-0">
+        <i class="fas fa-angle-double-up"></i>
+      </a>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
+
+
+<script>
+  AOS.init({ duration: 2000 });
+</script>
